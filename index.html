@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>clicker</title>
+</head>
+<body>
+<img onclick='click12()' src="like.png">
+<div id='2'>
+    0
+</div>
+</body>
+<script>
+    document.getElementById('2').innerHTML = localStorage.click1122
+    let click12 = ()=>{
+        let a = document.getElementById('2').innerHTML
+        localStorage.click1122 = a
+        document.getElementById('2').innerHTML = parseInt (a)+1
+    }
+
+</script>
+<style>
+    img{
+        width: 250px;
+        height: 250px;
+    }
+    div{
+        font-size: 48px;
+    }
+</style>
+
